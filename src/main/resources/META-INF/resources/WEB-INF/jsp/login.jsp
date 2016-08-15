@@ -2,6 +2,28 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
+    <style>
+        table.center {
+            margin-left:auto;
+            margin-right:auto;
+        }
+        body {text-align:center;
+            background-image: url(".");
+        }
+        *{
+            background-color: aliceblue;
+            text-align: center;
+        }
+        a:hover{
+            text-decoration: none;
+            color:gold;
+        }
+        a{
+            text-decoration: none;
+            color:dimgrey;
+        }
+    </style>
+
     <title>Login</title>
 </head>
 <body>
